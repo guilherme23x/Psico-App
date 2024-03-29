@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #F5FBFB;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    background: rgb(158, 88, 191);
+    background: linear-gradient(90deg, rgba(158, 88, 191, 1) 0%, rgba(177, 141, 229, 1) 100%);
+    padding: 20px;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+
+}
+
+.topbar p {
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    color: #F5FBFB;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.topbar span {
+    font-weight: 300;
+}
+
+.datahora {
+    background-color: #F5FBFB;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: rgb(97, 97, 97);
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 10%;
+}
+
+.datahora span {
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+    margin-top: 20px;
+}
+
+/* Card */
+
+.scroll-container {
+    width: 90%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 10px;
+    color: grey;
+    font-weight: 100;
+}
+
+.info h3 {
+    margin: 0;
+    text-decoration: none;
+}
+
+.subtitulo {
+    font-size: 15px;
+    color: grey;
+    font-weight: 300;
+}
+
+.info span {
+    float: right;
+    font-weight: 300;
+    color: purple;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.card {
+    padding: 18px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+.card a {
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    text-align: left;
+    justify-content: center;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+
+/* Tab Bar */
+
+.content {
+    padding-bottom: 60px;
+    /* Altura da tab bar */
+    box-sizing: border-box;
+}
+
+.tab-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tab {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.tab:hover {
+    border-bottom: 2px solid #007bff;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+}
+
+
+.botoes .botao {
+    width: 25%;
+    left: 35%;
+    position: relative;
+    align-items: center;
+}
+
+.agenda {
+    border-radius: 80px;
+    background-color: #9346B6;
+    height: 200px;
+    width: 200%;
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda img {
+    width: 60%;
+    border-radius: 20px;
+    top: 5%;
+    left: 20%;
+    position: relative;
+}
